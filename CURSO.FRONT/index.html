@@ -1,0 +1,115 @@
+<html>
+	<head>
+		<title>Titulo da página</title>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		
+	<!-- FORM -->
+	<!-- INPUT - type -->
+	
+	<h1>CADASTRO</h1>
+	
+	<form autocomplete="off">
+	
+		<!-- Campo de texto -->
+		<label for="txtNome">Nome: </label>
+		<input type="text" id="txtNome" placeholder="Digite aqui o seu nome" maxlength="20" autofocus/>
+		<br />
+		
+		<label for="txtEmail">Email: </label>
+		<input type="text" id="txtEmail" placeholder="Digite aqui o seu email" readonly="true"/>
+		<br />
+		
+		<label for="txtTelefone">Telefone: </label>
+		<input type="text" id="txtTelefone" placeholder="(00) 00000-0000" size="12"/>
+		<br />
+		
+		<label for="txtSenha">Senha: </label>
+		<input type="password" id="txtSenha"/>
+		<br />
+		
+		<label for="nbrIdade">Idade</label>
+		<input type="number" id="nbrIdade" min="5" max="10" />
+		<br />
+		
+		<label for="clrFavorita">Cor favorita</label>
+		<input type="color" id="clrFavorita" />
+		<br />
+		
+		<label for="flPerfil">Foto de perfil</label>
+		<input type="file" id="flPerfil" />
+		<br />
+		
+		<label for="sltUf">UF</label>
+		<select id="sltUf">
+			<option></option>
+			<option value="1">SP</option>
+			<option value="2">RJ</option>
+			<option value="3">MG</option>
+		</select>
+		
+		<br />
+		
+		<label for="dtNascimento">Data de nascimento: </label>
+		<input type="date" id="dtNascimento" />
+		<br />
+		
+		<label>Navegador favorito</label>
+		
+		<input list="browsers">
+		<datalist id="browsers">
+			<option value="Internet Explorer">
+			<option value="Firefox">
+			<option value="Chrome">
+			<option value="Opera">
+			<option value="Safari">
+		</datalist>
+		
+		<h4>Comida favorita</h4>
+		
+		<!-- radio button -->
+		<input type="radio" name="opcoes" id="rbtPizza" />
+		<label for="rbtPizza">Pizza</label>
+		<br />
+		<input type="radio" name="opcoes" id="rbtLasanha" checked="true" />
+		<label for="rbtLasanha">Lasanha</label>
+		<br />
+		<input type="radio" name="opcoes" id="rbtSorvete" />
+		<label for="rbtSorvete">Sorvete</label>
+		
+		<br />
+		
+		<h4>Bebida favorita</h4>
+		
+		<!-- checkbox -->
+		<input type="checkbox" id="chkCafe">
+		<label for="chkCafe">Café</label>
+		<br />
+		<input type="checkbox" id="chkRefri">
+		<label for="chkRefri">Refrigerante</label>
+		<br />
+		<input type="checkbox" id="chkAgua">
+		<label for="chkAgua">Água</label>
+		<br />
+		<input type="checkbox" id="chkCerveja" checked="true">
+		<label for="chkCerveja">Cerveja</label>
+		
+		<br />
+		<br />
+		
+		<!-- textarea -->
+		<label for="txtAreaDesc">Descrição: <label>
+		<textarea id="txtAreaDesc" rows="15" cols="100"></textarea>
+		
+		<!-- botão -->
+		<br /><br />
+		<input type="button" value="Cancelar" />
+		<input type="Submit" disabled="true"/>
+		
+	</form>
+	
+	</body>
+</html>
+
+
