@@ -1,8 +1,69 @@
+body{
+  background-color: #0077B6;
+  color: #CAF0F8;
+}
+
+form{
+  background-color:#48CAE4;    
+  color: #03045E;
+  font-family: 'Nerko One', cursive;
+
+  margin: 0 auto;
+  width: 400px;
+   
+  padding: 20px;
+  border: 1px solid #CAF0F8;
+  border-radius: 20px;
+}
+
+input{
+  background-color: #00B4D8;
+}
+
+select{
+  background-color: #00B4D8;
+  font-family: 'East Sea Dokdo', cursive;
+  font-size: 20px;
+  color: #CAF0F8;
+}
+  
+::placeholder{
+  color: #CAF0F8;
+  font-family: 'East Sea Dokdo', cursive;
+  font-size: 20px;
+}
+   
+
 h1{
-    font-style: italic;
-  }
-  table{
-    background-color: #FFADAD;
-    border-style: double #bdb2ff;
-  }
+  font-family: 'Nerko One', cursive;
+  font-size: 35px;
+}
+
+h3{
+  font-family: 'Nerko One', cursive;
+  font-size: 25px;
+}
+
+table{
+  background-color: #48CAE4;
+  color: #CAF0F8;
+  border-style: double #03045E;
+}
+
+#button{
+  font-family: 'Nerko One', cursive;
+}
+
+#verPet{
+  font-family: 'East Sea Dokdo', cursive;
+  font-size: 25px;
+
+}
+
+#cadastro{
+  font-family: 'Nerko One', cursive;
+  color:#03045E;
+}
+
+  
   
