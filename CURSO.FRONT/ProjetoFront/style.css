@@ -1,10 +1,16 @@
 html,body{
-  background-color: #0077B6;  
   margin: 0;
   padding: 0;
 }
 
 /*Formulario*/
+h1{
+  padding: 20px 40px;
+  margin: 20px 40px;
+  font-family: 'Nerko One', cursive;
+  font-size: 35px;  
+}
+
 form{
   background: url("https://thumbs.dreamstime.com/b/m%C3%A3o-humana-adote-me-n%C3%A3o-compre-ado%C3%A7%C3%A3o-de-cat-pet-do-c%C3%A3o-93394606.jpg");    
   background-repeat: no-repeat;
@@ -32,31 +38,35 @@ select, ::placeholder{
   font-family: 'Nerko One', cursive;
 }
 
+
 /*Home*/
-h1, h3{
-  font-family: 'Nerko One', cursive;
-  font-size: 35px;
+table{
+  background-color: #5E503F;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color: #CAF0F8;
+  padding: 20px 35px;
+  margin: 180px 240px;
 }
 
-table{
-  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDZO8CVqmFCoB-6Au_MbKK1yQPzVkNWM8CmQ&usqp=CAU");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #CAF0F8;
-  border-style: double #03045E;
-  padding: 20px;
+#bodyHome{
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_DWxI_Lg1yhkHTeV3eYRBbDKS_KV_xDCKWQ&usqp=CAU");  
+  background-attachment: fixed;
+}
 
+#titulosHome{  
+  font-family: 'Nerko One', cursive;
+  font-size: 35px;
 }
 
 #verPet{
   font-family: 'East Sea Dokdo', cursive;
   font-size: 25px;
-
 }
 
 #cadastro{
   font-family: 'Nerko One', cursive;
-  color:#03045E;
+  color:#0A0908;
 }
 
   
