@@ -20,6 +20,8 @@ form{
   padding: 23px;
   border: 1px solid #CAF0F8;
   border-radius: 20px;
+  border-color: #0A0908;
+  box-shadow:8px 10px 10px #0A0908;
 }
 
 select, ::placeholder{ 
@@ -41,7 +43,8 @@ select, ::placeholder{
 
 /*Home*/
 table{
-  background-color: #5E503F;
+ /* background-color: #5E503F; */
+  backdrop-filter: blur(2px); 
   background-repeat: no-repeat;
   background-size: cover;  
   color: #CAF0F8;
@@ -68,6 +71,7 @@ table{
   font-family: 'Nerko One', cursive;
   color:#0A0908;
 }
+
 
   
   
